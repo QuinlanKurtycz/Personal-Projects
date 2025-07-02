@@ -1,0 +1,62 @@
+print('''
+
+                                          _.-.._         _._
+                                     _,/^^,y./  ^^^^"""^^\= \\
+                                     \y###XX;/  /     \    ^\^\\
+                                       `\Y^   /   .-==||==-.)^^
+                   ,.-=""""=-.__       /^ (  (   -/<0>++<0>(
+                 .^      .: . . :^===(^ \ (  (  /```^^^^^^^)
+                /      .: .,GGGGp,_ .(   \   /    /-(o'~'o))
+              .^      : . gGG"""YGG}. \   )   / /  _/-====-\\
+             /       (. .gGP  __ ~~ . .\  \  (    (  _.---._)
+            /        (. (GGb,,)GGp. . . \_-^-.__(_ /______./
+           (          \ . `"!GGP^ . . . . ^=-._--_--^^^^^~)
+           (        /^^^\_. . . . . . . . . . . . . . . . )
+           )       /     /._. . . . . . . . . . . . . ._.=)
+           \      /      |  ^"=.. . . . . . . ._++""\"^    \\
+            \    |       |       )^|^^~'---'~^^      \     )
+            )   /        )      /   \                 \    \\
+            |`  |        \     /\    \                (    /
+            |   |         (   (  \ . .\               |   (
+            )   |         )   )   ^^^^^^              |   |
+           /. . \         |  '|                       )   (
+           ^^^^^^         )    \                      /. . \\
+                          / . . \                     ^^^^^^
+                          ^^^^^^^
+
+      ''')
+print("Welcome to Bulldog Treasure Island!")
+print("Your mission is to save Bully and find the treasure.")
+
+choice = input("Press 'y' to start" ).lower()
+
+if not choice == "y":
+    print("You die a terrible death. The End...?")
+    quit
+else:
+    print("Lets begin")
+    print("You arrive on the mysterious bulldog island. To your left a dock hand is shucking clam shells.")
+    choice = input("Type \"y\" to approach, and \"n\" to continue down the docks").lower()
+
+    if not choice == "y":
+        print("You take a long walk off a short pier. Game over.")
+        quit
+    else:
+        print("You approach the grizzled man as he stares you down with his single uncovered eye")
+        print("\"What do you want\" he snarls.")
+
+        print("1. \"$50.00 please\"")
+        print("2. \"Do you know where Bully is?\"")
+        print("3. \"I think clams are dumb\"")
+
+        choice = input("Type \"1, 2, or 3\" to decide: ").lower()
+
+        if choice == "1":
+            print("You have been shanked to death. Game Over.")
+            quit
+        elif choice == "2":
+            print("Dock Hand: \"Oh he's right here! Here is the Treasure too.\"")
+            print("You Won! Thanks for playing!")
+        else:
+            print("You die the most terrible unspeakable death imaginable. Game Over.")
+            quit

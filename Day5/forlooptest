@@ -1,0 +1,29 @@
+fruits = ["Apple", "Peach", "Pear"]
+for fruit in fruits:
+    print(fruit)
+    print(fruit + "pie")
+
+print(fruits)
+
+student_scores = [124,11,12345,3453,6457,8657,3457456,7,43,7,5,246,7]
+total_exam_score = sum(student_scores)
+max_exam_score = max(student_scores)
+print(total_exam_score)
+print(max_exam_score)
+
+sum = 0
+max = 0
+for score in student_scores:
+    sum += score
+    if score > max:
+        max = score
+print(sum)
+print(max)
+
+for number in range(1,11,3):
+    print(number)
+
+sum = 0
+for number in range(1,101):
+    sum += number
+print(number)

@@ -1,0 +1,33 @@
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height > 120:
+    print("You can ride the rollercoaster")
+    Age = int(input("how old is yo azz?? "))
+    if Age <= 12:
+        print("$5 please")
+        bill = 5
+    elif Age <= 18:
+        print("gimme $7 slime")
+        bill = 7
+    else:
+        print("$1000000000 NOW")
+        bill = 1000000000
+
+    wants_photo = input("Does u wanna photo? y/n ")
+    if wants_photo == "y":
+        bill += 3
+    
+    print(f"your ass owes me ${bill}")
+
+else:
+    print("Sorry, you have to grow taller before you can ride.")
+
+Number = int(input("What dafaq is ur number?: "))
+even_check = Number%2
+if int(even_check) == 0:
+    print("dat shit even")
+else:
+    print("dat shit odd")
+
+
